@@ -1,7 +1,7 @@
 # pares.append(numeros)
 
 convidados_parcial = ["Ygor", "Daniel", "Miguel", "Paulinho"]
-convidados_futuros = []
+convidados_futuros = ""
 
 opcao = int(input("Digite:\n[1]ADICIONAR\n[2]REMOVER\n[3]SAIR"))
 
