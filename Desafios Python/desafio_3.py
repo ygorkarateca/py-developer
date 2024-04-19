@@ -1,14 +1,11 @@
 N = int(input())
 
-while(N > 0):
-  
-  A = int(input())
-  B = int(input())
-  
-  
-  if A == B:
+while N > 0:
+  A, B = input().split()
+    
+  if A.endswith (B):
     print("encaixa")
     
   else:
     print("nao encaixa")
-    N -= 1
+  N -= 1
