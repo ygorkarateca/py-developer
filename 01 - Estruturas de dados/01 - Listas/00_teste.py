@@ -7,7 +7,7 @@ while True:
     if opcao == "1":
 
         adicionar_convidados = str(input()).title()
-        print(f"Digite o nome para adicionar:{adicionar_convidados.append()}")
+        print(f"Digite o nome para adicionar:{adicionar_convidados.append("")}")
 
     # Remover nomes
     elif opcao == "2":
