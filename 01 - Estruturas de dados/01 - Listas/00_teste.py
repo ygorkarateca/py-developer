@@ -1,8 +1,4 @@
 # pares.append(numeros)
-
-convidados = ["Ygor", "Daniel", "Miguel", "Paulinho"]
-convidados_atuais = ""
-
 opcao = int(input("Digite:\n[1]ADICIONAR\n[2]REMOVER\n[3]SAIR\n"))
 
 while True:
