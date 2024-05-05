@@ -5,6 +5,10 @@ contatos = {
     "ygorkarateca@outlook.com": {"nome": "Santos", "id":"2142"},
 }
 
-# Exemplo = [CHAVE][DICIONARIO]
-telefone = contatos["ygorbjj20@gmail.com"]["id"] # 8800
-print(telefone)
+for chave in contatos:
+    print(chave, contatos[chave])
+
+print("=" * 67)
+
+for chave, valor in contatos.items():
+    print(chave, valor)

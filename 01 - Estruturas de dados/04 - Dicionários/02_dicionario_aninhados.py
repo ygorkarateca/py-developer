@@ -5,5 +5,6 @@ contatos = {
     "ygorkarateca@outlook.com": {"nome": "Santos", "id":"2142"},
 }
 
-clear = contatos.clear() # Apaga toda meu dicionário
-print(clear)
+# Exemplo = [CHAVE][DICIONARIO]
+telefone = contatos["ygorbjj20@gmail.com"]["id"] # 8800
+print(telefone)
